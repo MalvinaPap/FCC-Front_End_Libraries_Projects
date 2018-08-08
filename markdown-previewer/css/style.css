@@ -1,0 +1,14 @@
+body {
+  margin:20px;
+  background: #d6d6f5;
+}
+
+
+textarea {
+  width: 320px;
+  height: 400px;
+}
+
+.jumbotron {
+  width: 320px;
+}
