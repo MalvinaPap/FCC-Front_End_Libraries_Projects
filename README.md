@@ -1,4 +1,4 @@
-#freeCodeCamp|Front-End Libraries Projects
+# freeCodeCamp|Front-End Libraries Projects
 The simple web applications in this repository where implemented in the context of freeCodeCamp's curriculum, and more specifically during the front-end libraries certification process.
 
 
