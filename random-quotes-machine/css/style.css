@@ -1,0 +1,11 @@
+body {
+  background: url(https://media.istockphoto.com/photos/red-carpet-picture-id533703052?k=6&m=533703052&s=612x612&w=0&h=0dMhuLnhBvxCSOAOkM6_MAOkDAvsjHBxAywVNpajbho=) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.heading {
+  color: black;
+}
