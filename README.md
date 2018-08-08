@@ -6,7 +6,7 @@ The simple web applications in this repository where implemented in the context 
 This app consists of a single html page that shows a different AFI top movie quote each time the 'Get Quote' button is clicked. It was developed using HTML,CSS and JavaScript and also the Bootstrap and jQuery frameworks.
 
 ### Project No.2: Markdown Previewer
-This app takes markdown text as an input from the user and returns html. It was developed Bootstrap and React frameworks.
+This app takes markdown text as an input from the user and returns html. It was developed using Bootstrap and React frameworks.
 
 **More information:**
 * Check [freeCodeCamp](https://www.freecodecamp.org) to learn about its whole curriculum for full-Stack web development.
