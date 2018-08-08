@@ -2,7 +2,7 @@
 The simple web applications in this repository where implemented in the context of freeCodeCamp's curriculum, and more specifically during the front-end libraries certification process.
 
 
-## Project No.1: Random Quote Machine
+### Project No.1: Random Quote Machine
 This app consists of a single html page that shows a different AFI top movie quote each time the 'Get Quote' button is clicked. It is written using HTML,CSS and JavaScript and also the Bootstrap and jQuery frameworks.
 
 **More information:**
