@@ -11,6 +11,10 @@ This app takes markdown text as an input from the user and returns html. It was 
 ### Project No.3: Drum Machine
 This app consists of a pad of 9 buttons, each one representing a sigle musical instrument. When clicked the name of the instrument is displayed and a representative sound gets triggered. Help with sound issue needed. Sounds are all included in the corresponding folder. It was developed using Bootstrap and React frameworks.
 
+### Project No.4: JavaScript Calculator
+This is a simple calculator that can do all the basic mathematical operation -add,subtrasct,multiply,divide- plus square a number. It was build using Bootstrap and Vanilla.js.
+
+
 **More information:**
 * Check [freeCodeCamp](https://www.freecodecamp.org) to learn about its whole curriculum for full-Stack web development.
 * The Projects implemented in this repository can be found on this [link](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects)

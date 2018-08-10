@@ -1,0 +1,54 @@
+body {
+  background: url("../images/cover.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+   background-size: cover;
+   text-align: center;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-shadow: 2px 4px 5px black;
+}
+h4 {
+  margin-top: 6px;
+}
+
+#calculator {
+  background-color: grey;
+  width: 250px;
+  height: 370px;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 50px auto;
+  box-shadow: 0px 0px 3px 3px red;
+}
+
+#display {
+  margin-bottom: 20px;
+  height: 38px;
+  width: 10em;
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 1px white;
+  text-align: right;
+  font: 20px bold;
+  
+}
+
+.btn {
+  height: 41px;
+  width: 35px;
+  margin: 4px;
+  box-shadow: 0px 0px 2px 1px black;
+  border-radius: 2px;
+  text-align: center;
+  outline: white;
+  background-color: white;
+}
+#equals {
+  width: 84px;
+}
