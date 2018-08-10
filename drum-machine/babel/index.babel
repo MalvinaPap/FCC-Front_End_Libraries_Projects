@@ -1,0 +1,74 @@
+const data= [
+  {id: "Piano", letter: "Q", src: "www.wavlist.com/soundfx/029/piano4.wav"},
+  {id: "Cello", letter: "W", src: "www.cello.org/Sounds/Cstringarco.wav"},
+  {id: "Accordion", letter: "E", src: "dight310.byu.edu/media/audio.../Accordian C4 Sample-4182-Free-Loops.com.mp3"},
+  {id: "Harp", letter: "A", src: "cd.textfiles.com/10000soundssongs/WAV/SCALES.WAV"},
+  {id: "Violin", letter: "S", src: "s1download-universal-soundbank.com/wav/9891.wav"},
+  {id: "Bass", letter: "D", src: "dight310.byu.edu/media/audio/Fre.../Beat Box Kick 1-3168-Free-Loops.com.mp3"},
+  {id: "Guitar", letter: "Z", src: "lapoc.de/samples/telshow-tele/cleanriff-EA-0-12--3.wav"},
+  {id: "Drums", letter: "X", src: "dight310.byu.edu/media/audio/Fre.../Beat Box Kick 1-3168-Free-Loops.com.mp3"},
+  {id: "Trumpet", letter: "C", src: "homepages.bw.edu/~phoekje/sf/TPT3TONE.wav"}
+];
+
+class DrumPad extends React.Component {
+  constructor(props) {
+    super(props);
+    this.handleClick=this.handleClick.bind(this);
+  }
+  
+   handleClick() {
+     this.audio.play();
+     this.audio.volume=0.5;
+     this.audio.currentTime=0;
+     this.props.handleDisplay(this.props.id);
+   }
+  
+   render() {
+    return(
+      <div className="drum-pad btn btn-info" id={this.props.id} onClick={this.handleClick}>
+        <h1>{this.props.letter}</h1>
+        <audio 
+          ref={(x) => {this.audio = x;}}
+          className="clip"
+          id={this.props.letter} 
+          src={this.props.src}>
+        </audio>
+      </div>
+    );
+  }
+}
+
+class App extends React.Component {
+   constructor(props){
+     super(props);
+     
+     this.state= {
+       display: ""
+     }
+     this.handleDisplay=this.handleDisplay.bind(this);
+   }
+   
+  handleDisplay =display=>this.setState({display})
+   
+  
+   render() {
+    return(
+      <div class="drum-machine" id="drum-machine">
+        <div class="display" id="display">{this.state.display}</div> 
+      
+        <div id="drum-pads" className="jumbotron col-md-10 offset-1">
+        {data.map(d=>(<DrumPad 
+            id={d.id} 
+            letter={d.letter}    
+            src={d.src}
+            handleDisplay={this.handleDisplay}           
+         />))}  
+        </div>
+        
+      </div>
+    );
+  }
+}
+
+
+ReactDOM.render(<App />, document.querySelector(".target"));
