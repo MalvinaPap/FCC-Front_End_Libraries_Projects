@@ -3,16 +3,16 @@ The simple web applications in this repository where implemented in the context 
 
 
 ### Project No.1: Random Quote Machine
-This app consists of a single html page that shows a different AFI top movie quote each time the 'Get Quote' button is clicked. It was developed using HTML,CSS and JavaScript and also the Bootstrap and jQuery frameworks.
+This app consists of a single html page that shows a different AFI top movie quote each time the 'Get Quote' button is clicked. It was developed using Bootstrap (HTML,CSS) and jQuery (JavaScript).
 
 ### Project No.2: Markdown Previewer
-This app takes markdown text as an input from the user and returns html. It was developed using Bootstrap and React frameworks.
+This app takes markdown text as an input from the user and returns html. It was developed using Bootstrap (HTML,CSS) and React (JavaScript).
 
 ### Project No.3: Drum Machine
-This app consists of a pad of 9 buttons, each one representing a sigle musical instrument. When clicked the name of the instrument is displayed and a representative sound gets triggered. Help with sound issue needed. Sounds are all included in the corresponding folder. It was developed using Bootstrap and React frameworks.
+This app consists of a pad of 9 buttons, each one representing a sigle musical instrument. When clicked the name of the instrument is displayed and a representative sound gets triggered. Help with sound issue needed. Sounds are all included in the corresponding folder. It was developed using Bootstrap (HTML,CSS) and React (JavaScript).
 
 ### Project No.4: JavaScript Calculator
-This is a simple calculator that can do all the basic mathematical operation -add,subtrasct,multiply,divide- plus square a number. It was build using Bootstrap and Vanilla.js.
+This is a simple calculator that can do all the basic mathematical operations -- add, subtract, multiply, divide -- plus square a number. It was built using Bootstrap (HTML,CSS) and Vanilla.js (JavaScript).
 
 
 **More information:**
