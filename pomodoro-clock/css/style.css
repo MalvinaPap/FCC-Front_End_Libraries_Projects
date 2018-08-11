@@ -1,0 +1,49 @@
+body {
+  background: url("../images/timer.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-shadow: 4px 4px 5px black;
+  margin-top: 20px;
+}
+
+#session-length, #break-length {
+  display: inline;
+}
+
+#break-label, #session-label {
+  margin-top: 20px;
+}
+
+#start_stop, #reset {
+  margin-top: 30px;
+}
+.pomodoro {
+  background-color: #df9fbf;
+  width: 340px;
+  height: 370px;
+  border: 2px white;
+  padding: 20px;
+  border-radius: 30px;
+  margin: 50px auto;
+  box-shadow: 0px 0px 3px 3px white;
+  color: white;
+  text-shadow: 0px 0px 2px black;
+}
+.btn {
+  box-shadow: 0px 0px 2px 1px white;
+  border-radius: 6px;
+  text-align: center;
+  outline: white;
+  background-color: #862d59;
+  
+}
+

@@ -14,6 +14,8 @@ This app consists of a pad of 9 buttons, each one representing a sigle musical i
 ### Project No.4: JavaScript Calculator
 This is a simple calculator that can do all the basic mathematical operations -- add, subtract, multiply, divide -- plus square a number. It was built using Bootstrap (HTML,CSS) and Vanilla.js (JavaScript).
 
+### Project No.5: Pomodoro
+This is a timer where the user can define the start time in minutes. A break time can be defined, too. It was built using Bootstrap (HTML,CSS) and jQuery (JavaScript).
 
 **More information:**
 * Check [freeCodeCamp](https://www.freecodecamp.org) to learn about its whole curriculum for full-Stack web development.
