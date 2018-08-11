@@ -1,6 +1,7 @@
 # freeCodeCamp|Front-End Libraries Projects
 The simple web applications in this repository where implemented in the context of freeCodeCamp's curriculum, and more specifically during the front-end libraries certification process. They were implemented using [Codepen](https://codepen.io).
 
+How to  use: Each project contains an html page named index.html. Run it with any browser and you can see the app running.
 
 ### Project No.1: Random Quote Machine
 This app consists of a single html page that shows a different AFI top movie quote each time the 'Get Quote' button is clicked. It was developed using Bootstrap (HTML,CSS) and jQuery (JavaScript).
